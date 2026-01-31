@@ -1,0 +1,21 @@
+body {
+  background: #e0f7ff;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.pinata {
+  font-size: 100px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.confetti {
+  position: fixed;
+  font-size: 22px;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
